@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C0081E1A24A97900CB89DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C0081D1A24A97900CB89DF /* AppDelegate.swift */; };
+		09C008201A24A97900CB89DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C0081F1A24A97900CB89DF /* ViewController.swift */; };
+		09C008231A24A97900CB89DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C008211A24A97900CB89DF /* Main.storyboard */; };
+		09C008251A24A97900CB89DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C008241A24A97900CB89DF /* Images.xcassets */; };
+		09C008281A24A97900CB89DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09C008261A24A97900CB89DF /* LaunchScreen.xib */; };
+		09C008341A24A97900CB89DF /* MCSwipeTableViewCellWithSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C008331A24A97900CB89DF /* MCSwipeTableViewCellWithSwiftTests.swift */; };
+		09C008431A24ABD400CB89DF /* MCSwipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C008421A24ABD400CB89DF /* MCSwipeTableViewCell.m */; };
+		09C008481A24ACD200CB89DF /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C008471A24ACD200CB89DF /* CustomCell.swift */; };
+		09C0084A1A24B31100CB89DF /* UserInfoClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C008491A24B31100CB89DF /* UserInfoClass.swift */; };
+		09C008641A25EB4D00CB89DF /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 09C0085C1A25EB4D00CB89DF /* check.png */; };
+		09C008651A25EB4D00CB89DF /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09C0085D1A25EB4D00CB89DF /* check@2x.png */; };
+		09C008661A25EB4D00CB89DF /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 09C0085E1A25EB4D00CB89DF /* clock.png */; };
+		09C008671A25EB4D00CB89DF /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09C0085F1A25EB4D00CB89DF /* clock@2x.png */; };
+		09C008681A25EB4D00CB89DF /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 09C008601A25EB4D00CB89DF /* cross.png */; };
+		09C008691A25EB4D00CB89DF /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09C008611A25EB4D00CB89DF /* cross@2x.png */; };
+		09C0086A1A25EB4D00CB89DF /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 09C008621A25EB4D00CB89DF /* list.png */; };
+		09C0086B1A25EB4D00CB89DF /* list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09C008631A25EB4D00CB89DF /* list@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09C0082E1A24A97900CB89DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09C008101A24A97900CB89DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09C008171A24A97900CB89DF;
+			remoteInfo = MCSwipeTableViewCellWithSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09C008181A24A97900CB89DF /* MCSwipeTableViewCellWithSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCSwipeTableViewCellWithSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C0081C1A24A97900CB89DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09C0081D1A24A97900CB89DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09C0081F1A24A97900CB89DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09C008221A24A97900CB89DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09C008241A24A97900CB89DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		09C008271A24A97900CB89DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		09C0082D1A24A97900CB89DF /* MCSwipeTableViewCellWithSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCSwipeTableViewCellWithSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C008321A24A97900CB89DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09C008331A24A97900CB89DF /* MCSwipeTableViewCellWithSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCSwipeTableViewCellWithSwiftTests.swift; sourceTree = "<group>"; };
+		09C008411A24ABD400CB89DF /* MCSwipeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSwipeTableViewCell.h; sourceTree = "<group>"; };
+		09C008421A24ABD400CB89DF /* MCSwipeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSwipeTableViewCell.m; sourceTree = "<group>"; };
+		09C008441A24ABF100CB89DF /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		09C008471A24ACD200CB89DF /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		09C008491A24B31100CB89DF /* UserInfoClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoClass.swift; sourceTree = "<group>"; };
+		09C0085C1A25EB4D00CB89DF /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = check.png; path = MCSwipeTableViewCellWithSwift/Images/check.png; sourceTree = SOURCE_ROOT; };
+		09C0085D1A25EB4D00CB89DF /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "check@2x.png"; path = "MCSwipeTableViewCellWithSwift/Images/check@2x.png"; sourceTree = SOURCE_ROOT; };
+		09C0085E1A25EB4D00CB89DF /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clock.png; path = MCSwipeTableViewCellWithSwift/Images/clock.png; sourceTree = SOURCE_ROOT; };
+		09C0085F1A25EB4D00CB89DF /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clock@2x.png"; path = "MCSwipeTableViewCellWithSwift/Images/clock@2x.png"; sourceTree = SOURCE_ROOT; };
+		09C008601A25EB4D00CB89DF /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cross.png; path = MCSwipeTableViewCellWithSwift/Images/cross.png; sourceTree = SOURCE_ROOT; };
+		09C008611A25EB4D00CB89DF /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cross@2x.png"; path = "MCSwipeTableViewCellWithSwift/Images/cross@2x.png"; sourceTree = SOURCE_ROOT; };
+		09C008621A25EB4D00CB89DF /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = list.png; path = MCSwipeTableViewCellWithSwift/Images/list.png; sourceTree = SOURCE_ROOT; };
+		09C008631A25EB4D00CB89DF /* list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list@2x.png"; path = "MCSwipeTableViewCellWithSwift/Images/list@2x.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09C008151A24A97900CB89DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C0082A1A24A97900CB89DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C0080F1A24A97900CB89DF = {
+			isa = PBXGroup;
+			children = (
+				09C008441A24ABF100CB89DF /* Header.h */,
+				09C0083F1A24ABC400CB89DF /* Vendor */,
+				09C0081A1A24A97900CB89DF /* MCSwipeTableViewCellWithSwift */,
+				09C008301A24A97900CB89DF /* MCSwipeTableViewCellWithSwiftTests */,
+				09C008191A24A97900CB89DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09C008191A24A97900CB89DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09C008181A24A97900CB89DF /* MCSwipeTableViewCellWithSwift.app */,
+				09C0082D1A24A97900CB89DF /* MCSwipeTableViewCellWithSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09C0081A1A24A97900CB89DF /* MCSwipeTableViewCellWithSwift */ = {
+			isa = PBXGroup;
+			children = (
+				09C0084B1A24B76400CB89DF /* Images */,
+				09C0081D1A24A97900CB89DF /* AppDelegate.swift */,
+				09C0081F1A24A97900CB89DF /* ViewController.swift */,
+				09C008211A24A97900CB89DF /* Main.storyboard */,
+				09C008241A24A97900CB89DF /* Images.xcassets */,
+				09C008261A24A97900CB89DF /* LaunchScreen.xib */,
+				09C0081B1A24A97900CB89DF /* Supporting Files */,
+				09C008471A24ACD200CB89DF /* CustomCell.swift */,
+				09C008491A24B31100CB89DF /* UserInfoClass.swift */,
+			);
+			path = MCSwipeTableViewCellWithSwift;
+			sourceTree = "<group>";
+		};
+		09C0081B1A24A97900CB89DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09C0081C1A24A97900CB89DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09C008301A24A97900CB89DF /* MCSwipeTableViewCellWithSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				09C008331A24A97900CB89DF /* MCSwipeTableViewCellWithSwiftTests.swift */,
+				09C008311A24A97900CB89DF /* Supporting Files */,
+			);
+			path = MCSwipeTableViewCellWithSwiftTests;
+			sourceTree = "<group>";
+		};
+		09C008311A24A97900CB89DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09C008321A24A97900CB89DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09C0083F1A24ABC400CB89DF /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				09C008401A24ABD400CB89DF /* MCSwipeTableViewCell */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		09C008401A24ABD400CB89DF /* MCSwipeTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				09C008411A24ABD400CB89DF /* MCSwipeTableViewCell.h */,
+				09C008421A24ABD400CB89DF /* MCSwipeTableViewCell.m */,
+			);
+			path = MCSwipeTableViewCell;
+			sourceTree = "<group>";
+		};
+		09C0084B1A24B76400CB89DF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				09C0085C1A25EB4D00CB89DF /* check.png */,
+				09C0085D1A25EB4D00CB89DF /* check@2x.png */,
+				09C0085E1A25EB4D00CB89DF /* clock.png */,
+				09C0085F1A25EB4D00CB89DF /* clock@2x.png */,
+				09C008601A25EB4D00CB89DF /* cross.png */,
+				09C008611A25EB4D00CB89DF /* cross@2x.png */,
+				09C008621A25EB4D00CB89DF /* list.png */,
+				09C008631A25EB4D00CB89DF /* list@2x.png */,
+			);
+			name = Images;
+			path = ../../ReachMe/Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09C008171A24A97900CB89DF /* MCSwipeTableViewCellWithSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C008371A24A97900CB89DF /* Build configuration list for PBXNativeTarget "MCSwipeTableViewCellWithSwift" */;
+			buildPhases = (
+				09C008141A24A97900CB89DF /* Sources */,
+				09C008151A24A97900CB89DF /* Frameworks */,
+				09C008161A24A97900CB89DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCSwipeTableViewCellWithSwift;
+			productName = MCSwipeTableViewCellWithSwift;
+			productReference = 09C008181A24A97900CB89DF /* MCSwipeTableViewCellWithSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09C0082C1A24A97900CB89DF /* MCSwipeTableViewCellWithSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C0083A1A24A97900CB89DF /* Build configuration list for PBXNativeTarget "MCSwipeTableViewCellWithSwiftTests" */;
+			buildPhases = (
+				09C008291A24A97900CB89DF /* Sources */,
+				09C0082A1A24A97900CB89DF /* Frameworks */,
+				09C0082B1A24A97900CB89DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09C0082F1A24A97900CB89DF /* PBXTargetDependency */,
+			);
+			name = MCSwipeTableViewCellWithSwiftTests;
+			productName = MCSwipeTableViewCellWithSwiftTests;
+			productReference = 09C0082D1A24A97900CB89DF /* MCSwipeTableViewCellWithSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09C008101A24A97900CB89DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Nikesh Hayaran";
+				TargetAttributes = {
+					09C008171A24A97900CB89DF = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					09C0082C1A24A97900CB89DF = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 09C008171A24A97900CB89DF;
+					};
+				};
+			};
+			buildConfigurationList = 09C008131A24A97900CB89DF /* Build configuration list for PBXProject "MCSwipeTableViewCellWithSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09C0080F1A24A97900CB89DF;
+			productRefGroup = 09C008191A24A97900CB89DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09C008171A24A97900CB89DF /* MCSwipeTableViewCellWithSwift */,
+				09C0082C1A24A97900CB89DF /* MCSwipeTableViewCellWithSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09C008161A24A97900CB89DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C008671A25EB4D00CB89DF /* clock@2x.png in Resources */,
+				09C008231A24A97900CB89DF /* Main.storyboard in Resources */,
+				09C008281A24A97900CB89DF /* LaunchScreen.xib in Resources */,
+				09C008681A25EB4D00CB89DF /* cross.png in Resources */,
+				09C008641A25EB4D00CB89DF /* check.png in Resources */,
+				09C0086A1A25EB4D00CB89DF /* list.png in Resources */,
+				09C008651A25EB4D00CB89DF /* check@2x.png in Resources */,
+				09C008661A25EB4D00CB89DF /* clock.png in Resources */,
+				09C0086B1A25EB4D00CB89DF /* list@2x.png in Resources */,
+				09C008251A24A97900CB89DF /* Images.xcassets in Resources */,
+				09C008691A25EB4D00CB89DF /* cross@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C0082B1A24A97900CB89DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09C008141A24A97900CB89DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C008201A24A97900CB89DF /* ViewController.swift in Sources */,
+				09C008431A24ABD400CB89DF /* MCSwipeTableViewCell.m in Sources */,
+				09C008481A24ACD200CB89DF /* CustomCell.swift in Sources */,
+				09C0084A1A24B31100CB89DF /* UserInfoClass.swift in Sources */,
+				09C0081E1A24A97900CB89DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C008291A24A97900CB89DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C008341A24A97900CB89DF /* MCSwipeTableViewCellWithSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09C0082F1A24A97900CB89DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09C008171A24A97900CB89DF /* MCSwipeTableViewCellWithSwift */;
+			targetProxy = 09C0082E1A24A97900CB89DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09C008211A24A97900CB89DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09C008221A24A97900CB89DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09C008261A24A97900CB89DF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09C008271A24A97900CB89DF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09C008351A24A97900CB89DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09C008361A24A97900CB89DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09C008381A24A97900CB89DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MCSwipeTableViewCellWithSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Header.h;
+			};
+			name = Debug;
+		};
+		09C008391A24A97900CB89DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MCSwipeTableViewCellWithSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Header.h;
+			};
+			name = Release;
+		};
+		09C0083B1A24A97900CB89DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MCSwipeTableViewCellWithSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCSwipeTableViewCellWithSwift.app/MCSwipeTableViewCellWithSwift";
+			};
+			name = Debug;
+		};
+		09C0083C1A24A97900CB89DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MCSwipeTableViewCellWithSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCSwipeTableViewCellWithSwift.app/MCSwipeTableViewCellWithSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09C008131A24A97900CB89DF /* Build configuration list for PBXProject "MCSwipeTableViewCellWithSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C008351A24A97900CB89DF /* Debug */,
+				09C008361A24A97900CB89DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09C008371A24A97900CB89DF /* Build configuration list for PBXNativeTarget "MCSwipeTableViewCellWithSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C008381A24A97900CB89DF /* Debug */,
+				09C008391A24A97900CB89DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09C0083A1A24A97900CB89DF /* Build configuration list for PBXNativeTarget "MCSwipeTableViewCellWithSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C0083B1A24A97900CB89DF /* Debug */,
+				09C0083C1A24A97900CB89DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09C008101A24A97900CB89DF /* Project object */;
+}
